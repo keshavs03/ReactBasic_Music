@@ -11,10 +11,11 @@ const Player = () => {
         <p>End Time</p>
       </div>
       <div className="play-control">
-        <FontAwesomeIcon className="play" size="2x" icon={faPlay} />
-        {/* <FontAwesomeIcon className="skip-back" size="2x" icon={}/> */}
         <i className="skip-back" class="fas fa-step-backward"></i>
         <FontAwesomeIcon className="play" size="2x" icon={faPlay} />
+        {/* <FontAwesomeIcon className="skip-back" size="2x" icon={}/> */}
+        {/* <FontAwesomeIcon className="play" size="2x" icon={faPlay} /> */}
+        <i className="skip-back" class="fas fa-step-backward"></i>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Song from "./components/Song";
 import Player from "./components/Player";
+import Styles from "./Styles/app.scss";
 
 function App() {
   return (
